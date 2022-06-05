@@ -1,0 +1,18 @@
+-- result (example)
+[
+    -- 1
+    Node (NTS "S") 
+    (Node (NTS "NP") (Node (NTS "det") Z Z) (Node (NTS "n") Z Z)) 
+    (Node (NTS "VP") 
+        (Node (NTS "v") Z Z)
+        (Node (NTS "NP") (Node (NTS "NP") (Node (NTS "det") Z Z) (Node (NTS "n") Z Z)) (Node (NTS "PP") (Node (NTS "prep") Z Z) (Node (NTS "NP") (Node (NTS "det") Z Z) (Node (NTS "n") Z Z))))
+    ),
+    
+    -- 2
+    Node (NTS "S") 
+    (Node (NTS "NP") (Node (NTS "det") Z Z) (Node (NTS "n") Z Z)) 
+    (Node (NTS "VP") 
+        (Node (NTS "VP") (Node (NTS "v") Z Z) (Node (NTS "NP") (Node (NTS "det") Z Z) (Node (NTS "n") Z Z)))
+        (Node (NTS "PP") (Node (NTS "prep") Z Z) (Node (NTS "NP") (Node (NTS "det") Z Z) (Node (NTS "n") Z Z)))
+    )
+]

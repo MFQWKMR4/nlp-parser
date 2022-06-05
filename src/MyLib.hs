@@ -1,6 +1,8 @@
 module MyLib where
 
+import CKY
 
-aaa = putStrLn "aaa"
+ckyCase1 :: IO ()
+ckyCase1 = case1
 
 

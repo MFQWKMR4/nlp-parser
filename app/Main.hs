@@ -3,4 +3,4 @@ module Main where
 import MyLib
 
 main :: IO ()
-main = aaa
+main = ckyCase1
